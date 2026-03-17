@@ -2,6 +2,8 @@
 
 Computational chemist and scientific software developer building at the intersection of quantum chemistry, machine learning, and AI-driven research.
 
+[Google Scholar](https://scholar.google.com/citations?user=4zGRuLQAAAAJ) | [ORCID](https://orcid.org/0000-0003-3239-8319) | 720 citations, h-index 14
+
 ### What I Work On
 
 - **Quantum Chemistry** -- DFT methods development using [Psi4](https://psicode.org/) and [FHI-aims](https://fhi-aims.org/), specializing in dispersion corrections (XDM) and intermolecular interactions
