@@ -2,7 +2,7 @@
 
 Computational chemist and scientific software developer building at the intersection of quantum chemistry, machine learning, and AI-driven research.
 
-[Google Scholar](https://scholar.google.com/citations?user=4zGRuLQAAAAJ) | [ORCID](https://orcid.org/0000-0003-3239-8319) | 720 citations, h-index 14
+[Google Scholar](https://scholar.google.com/citations?user=4zGRuLQAAAAJ) | [ORCID](https://orcid.org/0000-0003-3239-8319) | [LinkedIn](https://www.linkedin.com/in/alastair-price-6bba6611b/) | 720 citations, h-index 14
 
 ### What I Work On
 
