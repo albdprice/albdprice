@@ -73,3 +73,4 @@ I develop and apply computational methods at the intersection of **quantum chemi
 - **2025** — Invited seminars at **Seoul National University**, **Fritz-Haber-Institut (Max Planck)**, **University of Cambridge**, **National University of Singapore**
 - **2025** — *Science Advances* publication on adaptive hybrid density functionals
 - **2022** — Best graduate student poster, Canadian Symposium on Theoretical & Computational Chemistry
+
