@@ -58,6 +58,12 @@ I develop and apply computational methods at the intersection of **quantum chemi
 | [`cv`](https://github.com/albdprice/cv) | Academic CV — LaTeX source, auto-compiled PDF via GitHub Actions |
 | [`nserc-latex-template`](https://github.com/albdprice/nserc-latex-template) | LaTeX template for NSERC Discovery Grant applications |
 
+### Teaching
+
+| Course | Role | Institution | Materials |
+|:---|:---|:---|:---|
+| [CHM328: Modern Physical Chemistry](https://github.com/albdprice/teaching) | Guest Lecturer (DFT) | University of Toronto, 2026 | [Slides](https://github.com/albdprice/teaching/tree/main/CHM328) ·  Notes |
+
 ### Tools & Skills
 
 | Domain | Technologies |
@@ -73,4 +79,3 @@ I develop and apply computational methods at the intersection of **quantum chemi
 - **2025** — Invited seminars at **Seoul National University**, **Fritz-Haber-Institut (Max Planck)**, **University of Cambridge**, **National University of Singapore**
 - **2025** — *Science Advances* publication on adaptive hybrid density functionals
 - **2022** — Best graduate student poster, Canadian Symposium on Theoretical & Computational Chemistry
-
