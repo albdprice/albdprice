@@ -56,6 +56,7 @@ I develop and apply computational methods at the intersection of **quantum chemi
 | [`molecular-ml-pipeline`](https://github.com/albdprice/molecular-ml-pipeline) | End-to-end MLOps pipeline for MACE molecular ML models |
 | [`agentic-ai-demos`](https://github.com/albdprice/agentic-ai-demos) | Agentic AI systems for drug discovery and scientific research |
 | [`cv`](https://github.com/albdprice/cv) | Academic CV — LaTeX source, auto-compiled PDF via GitHub Actions |
+| [`teaching`](https://github.com/albdprice/teaching) | DFT lecture slides and companion notes (CHM328, UofT 2026) |
 | [`nserc-latex-template`](https://github.com/albdprice/nserc-latex-template) | LaTeX template for NSERC Discovery Grant applications |
 
 ### Teaching
