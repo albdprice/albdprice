@@ -2,7 +2,7 @@
 
 # Alastair J. A. Price
 
-**Postdoctoral Research Fellow** · University of Toronto / Acceleration Consortium
+**Computational Chemist & Postdoctoral Fellow** · University of Toronto / Acceleration Consortium
 
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-720+_citations-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=4zGRuLQAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--3239--8319-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-3239-8319)
@@ -23,17 +23,17 @@
 
 ### About
 
-I develop and apply computational methods at the intersection of **quantum chemistry**, **machine learning**, and **AI-driven materials science**. Named developer for [FHI-aims](https://fhi-aims.org/). Currently supervised by Prof. O. Anatole von Lilienfeld.
+I am a computational chemist who develops and applies quantum mechanical methods for molecular science. My work spans density functional theory, dispersion interactions, and machine learning for molecular property prediction. Named developer for [FHI-aims](https://fhi-aims.org/). Currently working with Prof. O. Anatole von Lilienfeld at the University of Toronto.
 
 **720+ citations** · **h-index 14** · **18 publications** · **10 invited talks** · **$10M+ grant funding**
 
 ### Research
 
-🔬 **Density Functional Theory** — Exchange-hole dipole moment ([XDM](https://github.com/albdprice/psi4_xdm)) dispersion corrections, adaptive hybrid functionals (aPBE0), local hybrid DFT. Implementation in [Psi4](https://psicode.org/) and [FHI-aims](https://fhi-aims.org/).
+My research is rooted in the fundamental physics of molecular interactions and building better computational tools for chemistry.
 
-🤖 **Machine Learning for Molecules** — Physics-informed [adaptive parameter learning](https://github.com/albdprice/adaptive-ml-potentials) for interatomic potentials, [MACE](https://github.com/ACEsuit/mace) neural network potentials for molecular property prediction, ML-accelerated DFT.
+**Dispersion & Density Functional Theory** — I develop and implement methods for accurately treating London dispersion interactions in DFT. This includes the exchange-hole dipole moment ([XDM](https://github.com/albdprice/psi4_xdm)) model in [Psi4](https://psicode.org/), adaptive hybrid functionals ([aPBE0](https://www.science.org/doi/10.1126/sciadv.adt7769)), non-local adiabatic connection methods (nLanE), and double-hybrid functionals (DH24) in [FHI-aims](https://fhi-aims.org/). I am currently generating training data for a machine-learned version of XDM dispersion following [Tu et al.](https://doi.org/10.1039/d2dd00150k).
 
-🧪 **AI-Driven Research** — Agentic AI systems for drug discovery and materials chemistry, autonomous computational workflows, MLOps pipelines with experiment tracking.
+**Machine Learning Interatomic Potentials** — I develop [physics-constrained approaches](https://github.com/albdprice/adaptive-ml-potentials) to learning interatomic potentials, where the model learns universal scaling parameters for known functional forms rather than fitting the potential surface directly. I also fine-tune [MACE](https://github.com/ACEsuit/mace) neural network potentials for targeted chemical domains, including a pipeline for 1,445 pesticide molecules trained on wB97M-D3BJ/def2-TZVPPD data.
 
 ### Selected Publications
 
@@ -43,40 +43,41 @@ I develop and apply computational methods at the intersection of **quantum chemi
 
 > **A. J. A. Price**, K. R. Bryenton, E. R. Johnson. *Requirements for an accurate dispersion-corrected density functional.* **J. Chem. Phys.** 2021, 154, 230902. (**Top 10% Altmetric**)
 
-> M. DeJong, **A. J. A. Price** et al. *Small molecule binding to surface-supported single-site transition-metal reaction centres.* **Nat. Commun.** 2022, 13, 1–10.
+> M. DeJong, **A. J. A. Price** et al. *Small molecule binding to surface-supported single-site transition-metal reaction centres.* **Nat. Commun.** 2022, 13, 1-10.
 
 [Full publication list →](https://albdprice.github.io)
 
-### Projects
+### Active Projects
 
 | Repository | Description |
 |:---|:---|
-| [`psi4_xdm`](https://github.com/albdprice/psi4_xdm) | Exchange-hole dipole moment dispersion corrections & adaptive DFT in Psi4 |
-| [`uf-research-statement`](https://github.com/albdprice/uf-research-statement) | AI-Driven Quantum Chemistry for Materials Chemistry |
-| [`molecular-ml-pipeline`](https://github.com/albdprice/molecular-ml-pipeline) | End-to-end MLOps pipeline for MACE molecular ML models |
-| [`agentic-ai-demos`](https://github.com/albdprice/agentic-ai-demos) | Agentic AI systems for drug discovery and scientific research |
-| [`cv`](https://github.com/albdprice/cv) | Academic CV — LaTeX source, auto-compiled PDF via GitHub Actions |
-| [`teaching`](https://github.com/albdprice/teaching) | DFT lecture slides and companion notes (CHM328, UofT 2026) |
-| [`nserc-latex-template`](https://github.com/albdprice/nserc-latex-template) | LaTeX template for NSERC Discovery Grant applications |
+| [`psi4_xdm`](https://github.com/albdprice/psi4_xdm) | XDM dispersion + aPBE0 + nLanE adaptive DFT in Psi4 (C++/Python) |
+| [`adaptive-ml-potentials`](https://github.com/albdprice/adaptive-ml-potentials) | Physics-constrained parameter learning for interatomic potentials ([Price & von Lilienfeld, 2026](https://github.com/albdprice/adaptive-ml-potentials)) |
+| [`molecular-ml-pipeline`](https://github.com/albdprice/molecular-ml-pipeline) | MACE fine-tuning pipeline: 28K pesticide structures, MLflow tracking, GPU training |
+| [`agentic-ai-demos`](https://github.com/albdprice/agentic-ai-demos) | Agentic AI for drug discovery: LangGraph agents, molecular RAG, PubChem integration |
+| [`teaching`](https://github.com/albdprice/teaching) | DFT lectures for CHM328 at UofT (Beamer slides + companion notes) |
+| [`cv`](https://github.com/albdprice/cv) | Academic CV with GitHub Actions auto-build |
 
 ### Teaching
 
-| Course | Role | Institution | Materials |
-|:---|:---|:---|:---|
-| [CHM328: Modern Physical Chemistry](https://github.com/albdprice/teaching) | Guest Lecturer (DFT) | University of Toronto, 2026 | [Slides](https://github.com/albdprice/teaching/tree/main/CHM328) ·  Notes |
+| Course | Role | Institution |
+|:---|:---|:---|
+| [CHM328: Modern Physical Chemistry](https://github.com/albdprice/teaching) | Guest Lecturer (DFT & Computational Chemistry) | University of Toronto, Winter 2026 |
 
-### Tools & Skills
+### Tools & Expertise
 
-| Domain | Technologies |
+| Domain | |
 |:---|:---|
-| **Quantum Chemistry** | Psi4, FHI-aims, ORCA, critic2, ASE, DFT, TDDFT, CCSD(T), SAPT |
-| **ML & AI** | PyTorch, MACE, scikit-learn, LangChain/LangGraph, MLflow, Intel IPEX/XPU |
-| **Scientific Computing** | Fortran, C++, Python, MPI/OpenMP, SLURM, HPC clusters |
-| **Infrastructure** | Docker, Proxmox, Prometheus/Grafana, ZFS, Cloudflare, GPU computing |
+| **Quantum Chemistry** | Psi4 (developer), FHI-aims (named developer), Gaussian, critic2, postg, ASE |
+| **Theory** | DFT, XDM dispersion, CCSD(T), adiabatic connection, double hybrids, perturbation theory |
+| **Machine Learning** | PyTorch, MACE, scikit-learn, KRR, cMBDF molecular descriptors |
+| **Scientific Computing** | Fortran, C++, Python, MPI/OpenMP, SLURM, Alliance Canada HPC, Globus |
+| **Infrastructure** | Proxmox, Docker, Ansible, Tailscale, Prometheus/Grafana, ZFS, MLflow |
 
 ### Recent Highlights
 
-- **2026** — Collaborator on **$10M NRF Singapore–UofT grant** for ML design of complex materials
+- **2026** — ML-XDM dispersion model: large-scale DFT data generation for machine-learned dispersion corrections
+- **2026** — Collaborator on **$10M NRF Singapore-UofT grant** for ML design of complex materials
 - **2025** — Invited seminars at **Seoul National University**, **Fritz-Haber-Institut (Max Planck)**, **University of Cambridge**, **National University of Singapore**
 - **2025** — *Science Advances* publication on adaptive hybrid density functionals
 - **2022** — Best graduate student poster, Canadian Symposium on Theoretical & Computational Chemistry
